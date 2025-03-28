@@ -19,4 +19,7 @@ MyWindow::MyWindow() {
 
 void MyWindow::on_addButton_clicked() {
     addButton.set_label("Clicked!");
+    popUp = Gtk::manage(new AddWindow());
+    // -> dereferences the pointer and accesses method show()
+    popUp->show();
 }

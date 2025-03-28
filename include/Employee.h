@@ -16,4 +16,4 @@ class Employee {
         //later on we can add getters/setters in this file
 };
 
-#endif // EMPLOYEE_H
+#endif
