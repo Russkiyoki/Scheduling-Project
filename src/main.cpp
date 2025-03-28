@@ -1,14 +1,9 @@
 #include <gtkmm.h>
 #include <iostream>
+#include "../include/MyWindow.h"
 
 int main(int argc, char* argv[]){
-    Gtk::Main kit(argc, argv);
-
-    Gtk::Window window;
-    window.set_default_size(800,420);
-    window.set_title("Scheduling");
-    window.set_position(Gtk::WIN_POS_CENTER);
-
-    Gtk::Main::run(window);
-    return 0;
+    auto app = Gtk::Application::create(argc, argv, "com.Voichishin.Scheduling");
+    MyWindow window;
+    return app->run(window);
 }

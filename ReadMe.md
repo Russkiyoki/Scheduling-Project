@@ -39,3 +39,7 @@ g++ main.cpp -o app `pkg-config gtkmm-3.0 --cflags --libs`
 __g++ main.cpp__ : g++ compiles it, and main.cpp is the source  
 __-o app: -o tells__ the compiler what to name the file, app is what we name it.  
 __pkg-config gtkmm-3.0__ --cflags --libs: pkg-config retrieves info about gtkmm-3.0
+
+
+## Documentations to read for Developer
+`https://gnome.pages.gitlab.gnome.org/gtkmm/group__Widgets.html`

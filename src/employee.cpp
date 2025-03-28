@@ -20,4 +20,4 @@ class Employee {
         dislikes = d;
         working = w;
     }
-};/*  */
+};
