@@ -34,7 +34,7 @@ Will include a nice looking GUI, with options to update info.
 
 ## End Command
 ``` 
-g++ main.cpp -o app `pkg-config gtkmm-3.0 --cflags --libs`
+g++ src/main.cpp src/MyWindow.cpp src/AddWindow.cpp -o Scheduling `pkg-config gtkmm-3.0 --cflags --libs`
 ```
 __g++ main.cpp__ : g++ compiles it, and main.cpp is the source  
 __-o app: -o tells__ the compiler what to name the file, app is what we name it.  

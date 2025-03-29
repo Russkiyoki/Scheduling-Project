@@ -8,7 +8,7 @@ using namespace std;
 class Employee {
     public: 
         string name;
-        string dayOff;
+        string daysOff;
         vector<string> dislikes;
         bool working;
 
