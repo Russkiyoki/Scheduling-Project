@@ -12,7 +12,7 @@ class Employee {
         vector<string> dislikes;
         bool working;
 
-        Employee(string n, char v, vector <string> d, bool w)
+        Employee(string n, char v, vector <string> d, bool w);
         //later on we can add getters/setters in this file
 };
 

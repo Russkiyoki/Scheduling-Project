@@ -12,5 +12,5 @@ Sector::Sector(string n, string e0){
 }
 
 void Sector::printSectorInfo(){
-    cout << sectorName << " ";
+    //output from textbox
 }

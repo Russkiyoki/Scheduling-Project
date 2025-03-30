@@ -11,9 +11,12 @@ AddWindow::AddWindow() {
     add(textHolder);
     
     show_all_children();
+
+    textName->signal_activate().connect(sigc::mem_fun(*this, &AddWindow::on_textName_enter));
+
 }
 
-void on_textName_enter(){
+void AddWindow::on_textName_enter(){
     std::string userInput = textName->get_text();
     
 }
