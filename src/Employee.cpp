@@ -13,7 +13,6 @@ Employee::Employee(std::string n, std::string v, std::string d, bool w){
     dayOff = v;
     dislikes = d;
     working = w;
-
     employees.push_back(*this);
 }
 
