@@ -32,3 +32,11 @@ x86_64-w64-mingw32-g++ -o SchedulingWindows.exe src/main.cpp src/AddWindows.cpp 
 
 ## Documentations to read for Developer
 `https://gnome.pages.gitlab.gnome.org/gtkmm/group__Widgets.html`
+
+## Compiling using Meson:
+1. set up build directory  
+``` meson setup {build folder name} ```
+2. compile  
+``` ninja -C build```
+3. run  
+``` ./{build folder name}/{program name}```
