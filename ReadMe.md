@@ -39,4 +39,9 @@ x86_64-w64-mingw32-g++ -o SchedulingWindows.exe src/main.cpp src/AddWindows.cpp 
 2. compile  
 ``` ninja -C build```
 3. run  
-``` ./{build folder name}/{program name}```
+``` ./{build folder name}/{program name}```  
+
+to push to new branch do:  
+```
+git push origin qt-version
+```

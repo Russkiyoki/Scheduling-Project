@@ -1,0 +1,5 @@
+/home/russ/Documents/VscodeProjects/Cprojects/SchedulingProject/build/CMakeFiles/Scheduling.dir
+/home/russ/Documents/VscodeProjects/Cprojects/SchedulingProject/build/CMakeFiles/edit_cache.dir
+/home/russ/Documents/VscodeProjects/Cprojects/SchedulingProject/build/CMakeFiles/rebuild_cache.dir
+/home/russ/Documents/VscodeProjects/Cprojects/SchedulingProject/build/CMakeFiles/Scheduling_autogen_timestamp_deps.dir
+/home/russ/Documents/VscodeProjects/Cprojects/SchedulingProject/build/CMakeFiles/Scheduling_autogen.dir

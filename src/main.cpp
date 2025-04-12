@@ -1,9 +1,17 @@
-#include <gtkmm.h>
+#include <QApplication>
+#include <QWidget>
 #include <iostream>
-#include "../include/MyWindow.h"
+#include "../include/window.h"
 
-int main(int argc, char* argv[]){
-    auto app = Gtk::Application::create(argc, argv, "com.Voichishin.Scheduling");
-    MyWindow window;
-    return app->run(window);
+int main(int argc, char *argv[]){
+    QApplication app(argc, argv);
+
+    Window window;
+    window.setWindowTitle("Scheduling");
+
+
+
+
+    window.show();
+    return app.exec();
 }
